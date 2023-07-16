@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>SimpleApp</title>
+
+</head>
+
+<body>
+    <header>
+        <div><i>Suno</i>DilSe</div>
+        <div>
+            <ul>
+                <li class="active">Home</li>
+                <li>Songs</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </header>
+    <main class="login">
+
+        <div class="login__form">
+            <h1>Listen to over 1000+ Music and Songs.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quae voluptatum illum quaerat
+                eveniet. Autem saepe hic nulla accusamus aperiam?</p>
+            <form action="" class="sign_up-form">
+                <input type="text" class="login__form-input rounded-sm" placeholder="Email" id="email" required>
+                <input type="text" class="login__form-input rounded-sm" placeholder="Password" id="password" required>
+
+                <input type="text" class="login__form-input rounded-sm" placeholder="Confirm Password" required
+                    id="confirmPassword">
+                <button class="btn rounded-sm ">Sign Up</button>
+            </form>
+
+            <p class="register">
+                Already have an Account. <span><a href="./index.html">Sign In</a></span> now.
+            </p>
+        </div>
+        <div class="login__illustration">
+
+            <img src="./images/signUpSvg.jpg" alt="">
+        </div>
+    </main>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    // ...
+
+    <script defer src="./scripts/signup.js" type="module"></script>
+</body>
+
+</html>
